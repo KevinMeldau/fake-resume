@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+body {
+    font-family: 'DotGothic16', sans-serif;
+    background-image: url("/images/fatty-corgi-Zn5chZcnFRA-unsplash.jpg");
+    height: 500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 100px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+}
+
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+h1, h3 {
+    color: brown;
+}
+
+a {
+    text-decoration: none;
+}
+
+.video {
+    padding-top: 400px;
+    display: flex;
+}
+
+p {
+    padding: 0 30px;
+}
